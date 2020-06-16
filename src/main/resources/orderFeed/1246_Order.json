@@ -1,0 +1,140 @@
+{
+	"orderNumber": "1246",
+	"versionNumber": 1,
+	"orderStatus": "CREATED",
+	"companyId": "1",
+	"banner": "Safeway",
+	"storeNumber": "1574",
+	"orderCreatedDate": "2019-08-07T21:49:49.282Z",
+	"sourceInfo": {
+		"source": "ECOMMERCE",
+		"enteredBy": "CUSTOMER",
+		"deviceType": "WEB"
+	},
+	"orderTotal": {
+		"currency": "USD"
+	},
+	"customer": {
+		"customerId": "555-175-1565214228082",
+		"clubCardNumber": "49192877844",
+		"name": {
+			"firstName": "Testing",
+			"lastName": "Account"
+		},
+		"address": [
+			{
+				"addressType": "SHIP-TO",
+				"addressLine1": "4480 Waimea Ct",
+				"addressLine2": " ",
+				"city": "San Jose",
+				"zipCode": "95118",
+				"country": "US"
+			}
+		],
+		"contact": [
+			{
+				"number": "9988776650",
+				"type": "MOBILE"
+			}
+		],
+		"email": [
+			{
+				"id": "vidhya1234@gmail.com",
+				"type": "PERSONAL"
+			}
+		],
+		"preference": {
+			"optIn": [
+				{
+					"type": "email",
+					"id": "vidhya1234@gmail.com",
+					"optin": true
+				},
+				{
+					"id": "9988776650",
+					"optin": false
+				}
+			]
+		},
+		"subscription": false
+	},
+	"paymentDetails": [
+		{
+			"paymentType": "CREDITCARD",
+			"paymentSubType": "VISA",
+			"tokenNumber": "8656984067080754",
+			"cardExpiryMonth": "02",
+			"cardExpiryYear": "25",
+			"zipcode": "19713",
+			"reqAuthorizationAmount": "67.20",
+			"address": {
+				"zipCode": "19713"
+			},
+			"paymentStatus": {
+				"status": "NOTAUTHORIZED",
+				"authorizationCode": "124.6521458719659",
+				"authorizationDate": "2019-08-07T21:49:49.659Z"
+			}
+		}
+	],
+	"subOrders": [
+		{
+			"subOrderNumber": 1,
+			"fulfillmentType": "DELIVERY",
+			"deliveryInfo": {
+				"deliverySubType": "RESIDENTIAL",
+				"slotInfo": {
+					"slotPlan": "PREMIUM",
+					"slotType": "ONEHR",
+					"slotId": "17f7ea62-7033-4534-ac49-0f443f5f51a6",
+					"timeZone": "America/Los_Angeles",
+					"startTime": "2019-08-08T20:02:00.000Z",
+					"endTime": "2019-08-08T21:00:00.000Z",
+					"editingCutoffDate": "2019-08-08T21:00:00.000Z"
+				},
+				"deliveryServiceType": "ATTENDED",
+				"pickupInfo": {
+					"locationType": "STORE",
+					"locationId": "1574",
+					"shortOrderNumber": 4
+				},
+				"stageByDateTime": "2019-08-08T21:00:00.000Z"
+			},
+			"charges": [
+				{
+					"name": "BagFee",
+					"category": "ServiceFee",
+					"chargeAmount": {
+						"amount": 0.1,
+						"currency": "USD"
+					}
+				},
+				{
+					"name": "DeliveryServiceFee",
+					"category": "ServiceFee",
+					"chargeAmount": {
+						"amount": 3.95,
+						"currency": "USD"
+					}
+				}
+			],
+			"promoCodes": [],
+			"orderLines": [
+				{
+					"itemId": "101010194",
+					"itemDescription": "Altoids Mints Peppermint - 1.76 Oz",
+					"orderedQuantity": 25,
+					"unitOfMeasure": "OUNCE",
+					"unitPrice": {
+						"amount": 2.29,
+						"currency": "USD"
+					},
+					"substitutionCode": "ABS",
+					"substitutionValue": "Same Brand Diff Size",
+					"regulatedItem": true
+				}
+			]
+		}
+	],
+	"revisionNumber": 0
+}
